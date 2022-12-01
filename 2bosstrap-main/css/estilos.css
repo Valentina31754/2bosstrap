@@ -1,0 +1,61 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+.logo img{
+    width: 100px;
+
+}
+.redes i,
+.redes svg{
+    font-size: 30px;
+    margin: 0 10px;
+}
+.slider img{
+    height: 800px;
+}
+.con-texto .promo {
+    background-image: url(../imagenes/promo\ \(1\).png);
+    font-size: 16px;
+    color: azure;
+    font-weight: bold;
+    font-style: italic;
+    padding: 7px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.con-texto h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.con-texto p{
+    font-size: 20px;
+    color: gray;
+}
+
+.oferta-carrusel{
+    background-image: url(../imagenes/promo\ \(1\).png);
+    padding: 10px 20px;
+    background-size: cover;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.carousel-caption{
+    right: inherit;
+    bottom: inherit;
+    top: 35%;
+    width: 400px;
+} 
+.titulo-carrusel{
+    font-size: 62px;
+    font-weight: bold;
+    text-align: left;
+}
+.boton-carrusel{
+    padding: 5px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
