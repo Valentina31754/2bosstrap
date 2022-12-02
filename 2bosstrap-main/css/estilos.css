@@ -1,8 +1,23 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
 }
+
 .logo img{
     width: 100px;
+
+}
+
+.fondo-menu{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-weight: 700;
+}
+.enlases-menu{
+    color: red;
+    font-size: 20px;
 
 }
 .redes i,
@@ -58,4 +73,22 @@ h1,h2,h3,h4,h5,h6{
     padding: 5px 25px;
     font-weight: bold;
     text-transform: uppercase;
+}
+.span-productos{
+    background-image: url(../imagenes/promo\ \(1\).png);
+    font-size: 16px;
+    color: azure;
+    font-weight: bold;
+    font-style: italic;
+    padding: 7px 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card{
+    border: none;
+}
+.card-title,
+.card-text{
+    text-align: center;
 }
